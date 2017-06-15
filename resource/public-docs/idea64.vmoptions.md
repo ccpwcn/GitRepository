@@ -53,5 +53,5 @@
 # 在内存出现OOM的时候，把Heap转存(Dump)到文件以便后续分析，文件名通常是java_pid<pid>.hprof，其中pid为该程序的进程号。
 -XX:+HeapDumpOnOutOfMemoryError
 # 用来指定heap转存文件的存储路径，需要指定的路径下有足够的空间来保存转存文件。
--XX:HeapDumpPath=E:/tmp/jvm_dump:
+-XX:HeapDumpPath=E:/tmp/jvm_dump
 ```
